@@ -1,4 +1,5 @@
 # Documentación adicional sobre BlizzCMS
+[Volver al comienzo](https://github.com/pangolp/docscms/)
 
 - Modules
 	- user
