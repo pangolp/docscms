@@ -1,9 +1,14 @@
 # [User](https://gitlab.com/WoW-CMS/BlizzCMS-Plus/-/blob/master/application/modules/user/controllers/User.php)
 
 ```php
+/**
+ * Constructor de la clase.
+ *
+ * Llama al modelo, para poder ser utilizado dentro del controlador.
+ * Si la hora no fue especificada, la inicializa, haciendo uso de la variable: timezone
+ */
 public function __construct()
 ```
-En el constructor, inicializamos la hora en base a la configuración establecida en **timezone** y también, cargamos el model **user_model**.
 
 ```php
 /**
